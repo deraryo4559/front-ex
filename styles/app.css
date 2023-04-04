@@ -1,13 +1,85 @@
+h1 {
+  text-align: center;
+  font-weight: normal;
+  text-decoration: #f78120 overline wavy;
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 h2 {
   color: palevioletred;
-  background-color: plum;
+  background-color: rgb(89, 115, 34);
 }
 
 button {
   color: magenta;
   background-color: cyan;
+  font-size: 20px;
 }
+
 p {
 color: olive;
 background: orange;
+font-weight: bold;
+line-height: 2rem;
+letter-spacing: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#signup {
+  color: black;
+}
+
+span {
+  color: aqua;
+}
+
+.spantag {
+  color: blue;
+  background-color: red;
+  font-weight: bold;
+}
+
+li a {
+  color: red;
+}
+
+input + button {
+  background-color: pink;
+}
+
+footer a {
+  color: blue;
+}
+
+footer > a {
+  color: aqua;
+}
+
+input[type="password"] {
+  color: greenyellow;
+  background-color: black;
+}
+input[type="text"] {
+  color: greenyellow;
+  background-color: blue;
+}
+
+a[href="#contact"] {
+  color: magenta;
+}
+
+button:hover {
+  background-color: #f78120;
+}
+button:active {
+  background-color: red;
+}
+
+#signup button:hover {
+  background-color: #0000;
 }
