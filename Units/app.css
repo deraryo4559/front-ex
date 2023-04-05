@@ -1,0 +1,61 @@
+html {
+  font-size: 30px;
+}
+
+section {
+  background-color: #6d6875;
+  width: 800px;
+  height: 800px;
+}
+
+div {
+  background-color: #e5989e;
+  width: 70%;
+  height: 20%;
+}
+
+h1 {
+  font-size: 40px;
+  border: 1px solid black;
+  line-height: 200%;
+}
+
+h2 {
+  font-size: 2em;
+  margin-left: 1em;
+}
+
+article {
+  font-size: 20px;
+}
+
+h3  {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 0.8em;
+}
+
+button {
+  font-size: 1em;
+  padding: 0 1em;
+  border-radius: 0.5em;
+  background-color: aquamarine;
+  color: white;
+}
+
+ul {
+  font-size: 0.7em;
+}
+
+#rems h2{
+  font-size: 3rem;
+}
+#rems h3{
+  font-size: 3rem;
+}
+
+#rems ul{
+  font-size: 1.8rem;
+}
